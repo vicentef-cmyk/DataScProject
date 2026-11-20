@@ -21,7 +21,8 @@ The analysis is descriptive: it identifies patterns of decoupling but does not e
 | Source | Data used | Role in the analysis |
 |---|---|---|
 | **BNPE** (Banque Nationale des Prélèvements quantitatifs en Eau), accessed through [data.gouv.fr](https://www.data.gouv.fr/fr/datasets/67cad6eb1b824c076b3a4b79/) | Annual water withdrawals by region and use, in m³ | Agricultural water withdrawals, combining surface water and groundwater |
-| **Agreste** — regional agricultural economic accounts | Agricultural production excluding subsidies, including annual volume indices | Estimate agricultural production in constant 2010 euros |
+| **Agreste** — regional agricultural economic accounts, 
+accessed through https://agreste.agriculture.gouv.fr/agreste-web/disaron/REAA-SeriesLongues/detail/| Agricultural production excluding subsidies, including annual volume indices | Estimate agricultural production in constant 2010 euros |
 | **French regional boundaries (GeoJSON)** | Geographic boundaries and region codes | Maps and geographic matching |
 
 The water indicator covers **withdrawals subject to abstraction fees**. Withdrawals are not equivalent to water consumption.
